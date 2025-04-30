@@ -10,7 +10,7 @@ files after conversion.
 ## How to use
 
 1. Download the Repository
-2. Install the ```pillow``` and ```pillow_heif``` libraries
+2. Install the ```requirements.txt```
 3. Run the script
 4. Enter the absolute path of the directory where the files are located
 5. Enter "Y" if you want to replace the .HEIC files or if you want to keep them
