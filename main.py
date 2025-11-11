@@ -53,7 +53,7 @@ def convert_heic_to_jpg(folder, delete_heic=False):
             tqdm.write(bcolors.FAIL + f"Failed to convert {file}: {e}" + bcolors.ENDC)
 
 if __name__ == "__main__":
-    print(bcolors.HEADER + "HEIC to JPG CLI\nWritten by Tobias Kisling using the pillow_heif library\n" + bcolors.ENDC)
+    print(bcolors.HEADER + "HEIC to JPG CLI\nWritten by Annabeth Kisling using the pillow_heif library\n" + bcolors.ENDC)
     folder_path = input("Enter the absolute folder path containing .heic files: ").strip()
     delete_input = input("Delete original .heic files after conversion? (Y/N): ").strip().lower()
     delete_heic = delete_input == "y"
